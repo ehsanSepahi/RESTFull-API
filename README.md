@@ -10,6 +10,24 @@
 
 # Getting started
 
+## Intro
+
+The Book Management API project is a simple RESTful API application built using Laravel, allowing you to manage books through HTTP requests and responses. This project serves as an illustrative example to demonstrate the capabilities of the Laravel framework in creating a basic RESTful API.
+
+Key features of this project include:
+
+1. Book Model: Creation of a "Book" model with attributes such as title, author, and publication year.
+
+2. BookController: Implementation of CRUD (Create, Read, Update, Delete) methods to manage books.
+
+3. API Routes: Definition of API routes for performing CRUD operations on books, specifically the /api/books endpoint.
+
+4. Migration and Database: Creation of a "books" table to store book information using migrations, along with database connection settings in the .env file.
+
+5. Routes and Requests: Definition of routes related to book management (GET, POST, PUT, DELETE) and the corresponding request handling.
+
+By running this project, you will be able to interact with book data by sending various requests to the API. Features such as creating new books, retrieving lists of books, updating book information, and deleting books will be available. Additionally, this project can be easily extended to add custom features as per your requirements.
+
 ## Installation
 
 Please check the official laravel installation guide for server requirements before you start. [Official Documentation](https://laravel.com/docs/5.4/installation#installation)
